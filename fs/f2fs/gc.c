@@ -154,7 +154,6 @@ do_gc:
 			 * Rapid GC would have cleaned hundreds of segments
 			 * that would not be read again anytime soon.
 			 */
-			mm_drop_caches(3);
 			f2fs_info(sbi, "dropped caches");
 		}
 
