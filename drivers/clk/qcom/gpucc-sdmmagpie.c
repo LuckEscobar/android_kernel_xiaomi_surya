@@ -290,7 +290,7 @@ static const struct freq_tbl ftbl_gpu_cc_gx_gfx3d_clk_src[] = {
 	F(692000000, P_CRC_DIV, 1, 0, 0),
 	F(700000000, P_CRC_DIV, 1, 0, 0),
 	F(750000000, P_CRC_DIV, 1, 0, 0),
-	F(800000000, P_CRC_DIV, 1, 0, 0),
+	F(802000000, P_CRC_DIV, 1, 0, 0),
 	F(825000000, P_CRC_DIV, 1, 0, 0),
 	{ }
 };
@@ -311,14 +311,14 @@ static struct clk_rcg2 gpu_cc_gx_gfx3d_clk_src = {
 		.vdd_class = &vdd_gx,
 		.num_rate_max = VDD_GX_NUM,
 		.rate_max = (unsigned long[VDD_GX_NUM]) {
-			[VDD_GX_RETENTION] = 1000000,
-			[VDD_GX_MIN] = 1600000,
-			[VDD_GX_MIN] = 3500000,
-			[VDD_GX_MIN] = 64000000,
-			[VDD_GX_LOW] = 78000000,
-			[VDD_GX_LOW_L1] = 11900000,
-			[VDD_GX_NOMINAL] = 18300000,
-			[VDD_GX_NOMINAL_L1] = 20000000,
+			[VDD_GX_RETENTION] = 10,
+			[VDD_GX_MIN] = 16,
+			[VDD_GX_MIN] = 35,
+			[VDD_GX_MIN] = 64,
+			[VDD_GX_LOW] = 78,
+			[VDD_GX_LOW_L1] = 119,
+			[VDD_GX_NOMINAL] = 183,
+			[VDD_GX_NOMINAL_L1] = 200,
 			[VDD_GX_HIGH_L1] = 825000000},
 	},
 };

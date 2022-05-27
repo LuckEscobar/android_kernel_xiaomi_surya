@@ -7,13 +7,13 @@ Build ID:
 Build URL: 
 
 Last 5 Commits before Build:-
-* 0df645afe02e (fix, 2022-05-16)
-* b66c2f4a0b18 (ARM64: dts: sdmmagpie: Optimize energy model, 2021-04-29)
-* 70faa4c02fa8 (gpucc/dts: sdmmagpie: Add 140MHz GPU frequency step, 2021-11-23)
-* 299e2dcc9cbe (clk: qcom: gpucc-sdmmagpie: undervolt, 2021-05-16)
-* 6295ee0aebe7 (Revert "gpucc/dts: sdmmagpie: Add 140MHz GPU frequency step", 2022-05-16)
-* 9338f4915775 (Revert "clk: qcom: gpucc-sdmmagpie: Undervolt GPU", 2022-05-16)
-* 6b9159a6626e (BACKPORT: tcp: do not call tcp_cleanup_rbuf() if we have a backlog, 2021-11-15)
-* 43f1df2ab923 (BACKPORT: tcp: check local var (timeo) before socket fields in one test, 2021-11-15)
-* 4263e32f284d (UPSTREAM: net: use skb_list_del_init() to remove from RX sublists, 2018-12-04)
-* d4451991471e (BACKPORT: tcp: defer skb freeing after socket lock is released, 2021-11-15)
+* 16edbd6fb469 (Revert "test", 2022-05-27)
+* d64d2663d816 (test, 2022-05-27)
+* a7d4f5ed4fb1 (Revert "kernel: Boost whenever a zygote-forked process becomes a top app", 2022-05-27)
+* eaa23727136a (Revert "kernel: Use task_is_zygote to fix build", 2022-05-27)
+* 81dce60f6b1b (Revert "test", 2022-05-27)
+* eeac06ed952e (test, 2022-05-27)
+* 849cb7127bd5 (Revert "rcu: Fix a performance regression", 2022-05-27)
+* 0d855d57d4e5 (Revert "arm64: defconfig: Enable CONFIG_WQ_POWER_EFFICIENT_DEFAULT", 2022-05-27)
+* c38af51cab30 (f2fs: improve naming schemes for rapid GC, 2019-08-09)
+* e4c6c2f08c39 (f2fs: mark gc_threads() functions as static, 2019-08-09)
